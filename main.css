@@ -1,0 +1,34 @@
+.blue_line{
+    background-color: #1d70b8;
+    padding: 5px 100%;
+}
+
+.cv{
+    background-color: black;
+}
+
+.cv_sign{
+    margin: 0 15%;
+    padding: 1.6rem 0;
+}
+
+.cv_sign i {
+    color: white;
+    margin-right: 5px;
+}
+
+.cv_sign a{
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-decoration: 1px underline; 
+}
+
+.cv_sign span{
+    color: white;
+    margin: 0 5px;
+}
+
+.cv_sign a:hover {
+    text-decoration: 3px underline;
+}
