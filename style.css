@@ -13,6 +13,7 @@ a{
 
 nav{
     background-color: black;
+    position: relative;
 }
 
 .nav_menu{
@@ -82,6 +83,8 @@ nav{
     font-size: 1.3rem;
     font-weight: 100;
     color: white;
+    box-sizing: border-box;
+    height: 57px;
 }
 
 .nav_search i:hover{
@@ -93,5 +96,20 @@ nav{
     border-bottom: 7px solid rgb(173, 172, 172);
 }
 
+.hidden_menu{
+    display: none;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: large;
+    padding: 3rem;
+
+}
+
+.list a:hover .hidden_menu{
+    display: block;
+}
 
 
