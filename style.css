@@ -100,15 +100,53 @@ nav{
     display: none;
     width: 100%;
     overflow: auto;
-    position: absolute;
     background-color: white;
     color: black;
     font-size: large;
-    padding: 3rem;
-
+    z-index: 0;
+    position: absolute;
+    right: 0;   
+    
 }
 
-.list a:hover .hidden_menu{
+.hidden_menu_df{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;  
+}
+
+.title{
+    align-self: flex-start;
+    padding-top: 1rem;
+}
+
+.title h1{
+    display: block;
+}
+
+.tegs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+
+.tegs_right{
+    padding-right: 1.5rem;
+}
+
+.tegs li{
+    margin-bottom: 1rem;
+}
+
+.tegs a {
+    text-decoration: underline;
+    color: #1d70b8; 
+}
+
+.hover_menu:hover .hidden_menu{
     display: block;
 }
 
