@@ -32,3 +32,29 @@
 .cv_sign a:hover {
     text-decoration: 3px underline;
 }
+
+.blue_div{
+    background-color: #1d70b8;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.h1{
+    padding: 2rem 20%;
+    border: 1px solid white;
+}
+
+.links{
+    background-color: black;
+    padding: 10rem 8rem;
+    margin: 3px 4rem 0 0;
+
+}
+
+@media screen and (max-width:869px) {
+    .cv_sign{
+        margin: 0 1rem;
+    }
+}
