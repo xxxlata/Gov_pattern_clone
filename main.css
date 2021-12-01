@@ -75,12 +75,85 @@
 }
 
 .imgs_div{
-    height: 65rem;
+    height: 45rem;
     width: 65rem;
     border-top: 5px solid black;
     border-bottom: 5px solid black;
+    padding: 3.5rem 0;
     display: grid;
+    column-gap: 2.5rem;
+    row-gap: 5rem;
+    grid-template-columns: repeat(3, auto-fill);
+    grid-template-rows: repeat(2, auto-fill);
+    grid-template-areas: 
+        "bigtitle subtitle subtitle"
+        "img_one img_two img_thr";
 }
+
+.bigtitle{
+    border:1px solid #1d70b8;
+    grid-area: bigtitle;
+}
+
+.subtitle{
+    border: 1px solid black;
+    grid-area: subtitle;
+}
+
+.img_one{
+    background-color: #1d70b8;
+    grid-area: img_one;
+}
+
+.img_two{
+    background-color: rgb(182, 182, 182);
+    grid-area: img_two;
+}
+
+.img_thr{
+    background-color: goldenrod;
+    grid-area: img_thr;
+}
+
+.last_divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.last_divs_box{
+    padding: 13rem 8rem;
+    margin: 0 2.3rem;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+.blue_box_father{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.blue_box{
+    padding: 3rem 31rem;
+    background-color: #1d70b8;
+    border: 0.3px solid white;
+}
+
+footer{
+    background-color: #f3f2f1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem;
+}
+
+footer div{
+    padding: 10rem 5rem;
+}
+
 
 @media screen and (max-width:869px) {
     .cv_sign{
@@ -92,5 +165,11 @@
     .links{
         background-color: #1d70b8;
         border: 1px solid white;
+    }
+}
+
+@media screen and(max-width:1048px) {
+    .imgs_div{
+        width: 40rem;
     }
 }
