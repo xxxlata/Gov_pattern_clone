@@ -150,6 +150,20 @@ nav{
     display: block;
 }
 
+.hamburger_menu{
+    display: none;
+    padding: 1rem 1rem;
+    background-color: black;
+    border:none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-left: 1px solid white;
+}
+
+.hamburger_menu a {
+    color: white;
+}
+
 @media screen and (max-width:869px) {
     .nav_menu{
         margin:0 1rem;
@@ -158,5 +172,14 @@ nav{
         background-color: black;
         border-left: 0.1px solid white;
     }
+}
+
+@media screen and (max-width:564px) {
+    .list{
+        display: none;  
+    }
+    .hamburger_menu{
+        display: block;
+    }    
 }
 

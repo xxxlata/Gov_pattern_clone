@@ -53,8 +53,44 @@
 
 }
 
+.column_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.column_divs{
+    height: 35rem;
+    width: 20rem;
+    border: 1px solid black;
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+.imgs_father{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs_div{
+    height: 65rem;
+    width: 65rem;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    display: grid;
+}
+
 @media screen and (max-width:869px) {
     .cv_sign{
         margin: 0 1rem;
+    }
+}
+
+@media screen and (max-width:539px) {
+    .links{
+        background-color: #1d70b8;
+        border: 1px solid white;
     }
 }
