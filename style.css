@@ -158,11 +158,22 @@ nav{
     font-size: 1rem;
     font-weight: bold;
     border-left: 1px solid white;
+    position: relative;
 }
 
 .hamburger_menu a {
     color: white;
 }
+
+.hamburger_menu_show{
+    position: absolute;
+    width: auto;
+    height: 1rem;
+    background-color: white;
+    z-index: 1;
+    display: none;
+}
+
 
 @media screen and (max-width:869px) {
     .nav_menu{
