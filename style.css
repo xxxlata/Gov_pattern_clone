@@ -158,7 +158,7 @@ nav{
     font-size: 1rem;
     font-weight: bold;
     border-left: 1px solid white;
-    position: relative;
+    
 }
 
 .hamburger_menu a {
@@ -167,10 +167,12 @@ nav{
 
 .hamburger_menu_show{
     position: absolute;
-    width: auto;
-    height: 1rem;
+    width: 100%;
+    height: 5rem;
     background-color: white;
-    z-index: 1;
+    top: 3.4rem;
+    right: 0.1rem;
+    left: 0.1rem;
     display: none;
 }
 
