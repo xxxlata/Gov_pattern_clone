@@ -146,10 +146,6 @@ nav{
     color: #1d70b8; 
 }
 
-.hover_menu:hover .hidden_menu{
-    display: block;
-}
-
 .hamburger_menu{
     display: none;
     padding: 1rem 1rem;
@@ -173,9 +169,8 @@ nav{
     top: 3.4rem;
     right: 0.1rem;
     left: 0.1rem;
-    display: none;
+    display: block;
 }
-
 
 @media screen and (max-width:869px) {
     .nav_menu{

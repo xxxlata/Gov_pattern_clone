@@ -1,6 +1,8 @@
 .blue_line{
     background-color: #1d70b8;
-    padding: 5px 10%;
+    padding: 5px 10rem;
+    z-index: 2;
+    float: 1;
 }
 
 .cv{
@@ -153,7 +155,6 @@ footer{
 footer div{
     padding: 10rem 5rem;
 }
-
 
 @media screen and (max-width:869px) {
     .cv_sign{
